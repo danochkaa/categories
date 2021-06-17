@@ -1,0 +1,122 @@
+.section{
+	width: 100%;
+	height: 100%;
+	background-image: url("https://www.corona-materials.de/images/bg-theme/1.png");
+}
+.container2{
+	width: 87%;
+	margin: 0 auto;
+	padding: 70px 0;
+	padding-bottom: 120px;
+}
+.section-inner {
+	display: flex;
+	justify-content: space-between;
+}
+.left-side{
+	width: 50%;
+	height: 100%;
+	padding-right: 15px;
+}
+label{
+	font-size: 13px;
+	font-weight: 400;
+}
+.form-control{
+	width: 80%;
+	height: 32px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	border-radius: 4px;
+	padding-left: 10px;
+}
+.searching{
+	margin-bottom: 40px;
+}
+.btn{
+	width: 79px;
+	height: 41px;
+	background-color: #e6502a;
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+	margin-bottom: 20px; 
+	border: 1px solid #dedede;
+	border-radius: 6px;	
+}
+.right-side{
+	padding: 0 10px; 
+	width: 50%;
+	height: 100%;
+}
+.number{
+	font-size: 14px;
+}
+.top-content{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 5px;
+}
+.right-of-top ul{
+	padding-right: 13px;
+	display: flex;
+	justify-content: space-between;
+}
+.right-of-top ul li{
+	padding: 0 10px;
+}
+.right-of-top ul li p{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+.far.fa-folder{
+	color: #e6502a;
+	padding-right: 3px;
+}
+.category-name{
+	color: #333;
+	font-size: 13px;
+	font-weight: 300;
+}
+.row{
+	padding: 3px 0;
+	border-bottom: 1px solid #dedede;
+	transition: .5s;
+}
+.row:hover{
+	background-color: #eee;
+	transition: .5s;
+}
+.sorting{
+	transition: .3s;
+	padding-bottom: 7px;
+}
+.sorting:hover{
+	border-bottom: 3px solid #e6502a;
+	transition: .3s;
+}
+
+#toTop {
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 51px;
+    height: 51px;
+    border: none;
+    text-indent: 100%;
+    background: url(https://www.corona-materials.de/images/ui.totop.png) no-repeat left top;
+    transition: 1.2s;
+    border: 1px;
+    border-radius: 25px;
+}
+#toTop:hover {
+    background-color: #000;
+    border: 1px;
+    border-radius: 25px;
+    transition: 1.2s;
+}

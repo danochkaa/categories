@@ -1,0 +1,156 @@
+.section{
+	width: 100%;
+	height: 100%;
+	background-image: url("https://www.corona-materials.de/images/bg-theme/1.png");
+}
+.container2{
+	width: 87%;
+	margin: 0 auto;
+	padding: 40px 0;
+	padding-bottom: 120px;
+}
+.section-inner {
+	display: flex;
+	justify-content: space-between;
+}
+.left-side{
+	width: 17%;
+	height: 100%;
+	padding-right: 15px;
+}
+.form-control{
+	width: 60%;
+	height: 29px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	border-radius: 4px;
+	padding-left: 10px;
+}
+
+label{
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+option{
+	color: #555;
+}
+input{
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+select{
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.fileinput-button{
+	border: #E4512D solid 4px;
+    padding: 10px 20px;
+    color: #E4512D;
+    font-weight: 700;
+}
+.fileinput-button span{
+    color: #E4512D;
+}
+.input-button{
+	margin-bottom: 5px;
+}
+.description-block{
+	margin-bottom: 5px;
+}
+.searching{
+	margin-bottom: 40px;
+}
+.btn{
+	width: 41px;
+	height: 32px;
+	margin-left: -7px;
+	font-family: 'Roboto Slab', serif;
+	background-color: #e6502a;
+	color: #fff;
+	border: 1px solid #e6502a;
+	border-radius: 0 4px 4px 0;	
+}
+.right-side{
+	padding: 0 10px; 
+	width: 83%;
+	height: 100%;
+}
+h2{
+	padding: 10px 0 15px 0;
+	font-family: 'Pacifico', cursive;
+	font-size: 1.875rem;
+	line-height: 2.5rem;
+}
+.upload-button{
+	width: 140px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	background-color: #e6502a;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+}
+.file-inp{
+	opacity: 0;
+	width: 2px;
+	padding: 0 20px;
+}
+
+
+
+
+
+
+.far.fa-folder{
+	color: #e6502a;
+	padding-right: 3px;
+}
+.category-name{
+	color: #333;
+	font-size: 13px;
+	font-weight: 300;
+}
+.row{
+	padding: 3px 0;
+	border-bottom: 1px solid #dedede;
+	transition: .5s;
+}
+.row:hover{
+	background-color: #eee;
+	transition: .5s;
+}
+.sorting{
+	transition: .3s;
+	padding-bottom: 7px;
+}
+.sorting:hover{
+	border-bottom: 3px solid #e6502a;
+	transition: .3s;
+}
+
+#toTop {
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 51px;
+    height: 51px;
+    border: none;
+    text-indent: 100%;
+    background: url(https://www.corona-materials.de/images/ui.totop.png) no-repeat left top;
+    transition: 1.2s;
+    border: 1px;
+    border-radius: 25px;
+}
+#toTop:hover {
+    background-color: #000;
+    border: 1px;
+    border-radius: 25px;
+    transition: 1.2s;
+}
